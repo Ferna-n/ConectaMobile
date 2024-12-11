@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Nombre del contacto -->
+    <TextView
+        android:id="@+id/contactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginEnd="16dp"
+        android:textColorHint="#FFFFFF"/>
+
+    <!-- Correo electrónico del contacto -->
+    <TextView
+        android:id="@+id/contactEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:textColorHint="#FFFFFF"/>
+
+    <!-- Espacio flexible para empujar el botón hacia la derecha -->
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <!-- Botón de Chat -->
+    <Button
+        android:id="@+id/chatButton"
+        android:layout_width="121dp"
+        android:layout_height="42dp"
+        android:layout_gravity="end"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_background"
+        android:text="Chat"
+        android:textColor="#FFFFFF" /> <!-- Alineado a la derecha -->
+</LinearLayout>
