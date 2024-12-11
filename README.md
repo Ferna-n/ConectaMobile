@@ -89,11 +89,6 @@ Los usuarios pueden:
 - Android 6.0 (API 23) o superior.
 - Conexión a Internet para la sincronización de datos.
 
-## Capturas de Pantalla
-
-![Pantalla de Chat](ruta/a/captura1.png)
-![Pantalla de Perfil](ruta/a/captura2.png)
-
 ## Licencia
 
 Este proyecto está bajo la licencia MIT. Para más información, consulta el archivo LICENSE en este repositorio.
